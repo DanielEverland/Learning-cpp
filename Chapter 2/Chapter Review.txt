@@ -1,0 +1,47 @@
+1. What are the modules of a C++ program called?
+	Functions
+
+2. What does the following preprocessor directive do?
+		#include <iostream>
+	It tells the compiler to include the library "iostream" in my program
+
+3. What does the following statement do?
+		using namespace std;
+	It allows my program to use the functions in the std library, either to the entire program or just the function it's declared in, depending on where it's declared
+
+4. What statement would you use to print the phrase "Hello, world" and then start a new line?
+	cout << "Hello, world" << endl;
+
+5. What statement would you use to create an integer variable with the name cheeses?
+	int cheeses;
+
+6. What statement would you use to assign the value 32 to the variable cheeses?
+	cheeses = 32;
+
+7. What statement would you use to read a value from keyboard input into the variable cheeses?
+	cin >> cheeses;
+
+8. What statement would you use to print "We have X varieties of cheese", where the current value of cheese variable replaces x?
+	cout << "We have " << cheeses << " varieties of cheese";
+
+9. What do the following function prototypes tell you about the functions?
+		int froop(double t);
+		void rattle(int n);
+		int prune(void);
+
+	Froop has a single parameter of type double called t, and returns a value of type int
+	rattle has a single parameter of type int, and does not return any value
+	prune has no parameters, and returns a value of type int
+
+10. When do you not have the use the keyword return when you define a function?
+	If the return value of the function is void
+
+11. Suppose your main() function has the following line
+		cout << "Please enter your PIN: ";
+	
+		And suppose the compiler complains that cout is an unknown identifier. What is likely the cause of this complaint, and what are the three ways to fix the problem?
+
+		The cause is that the std namespace isn't used anywhere.
+		1. using namespace std; in program
+		2. using namespace std; in function
+		3. Explicitly defining the use of std in the function call std:cout << (...)
