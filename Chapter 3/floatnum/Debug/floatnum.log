@@ -1,0 +1,3 @@
+﻿  floatnum.cpp
+d:\learning-cpp\chapter 3\floatnum\floatnum.cpp(10): warning C4305: 'initializing': truncation from 'double' to 'float'
+  floatnum.vcxproj -> D:\Learning-cpp\Chapter 3\Debug\floatnum.exe
