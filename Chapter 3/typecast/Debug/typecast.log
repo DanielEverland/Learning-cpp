@@ -1,0 +1,3 @@
+﻿  typecast.cpp
+d:\learning-cpp\chapter 3\typecast\typecast.cpp(12): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  typecast.vcxproj -> D:\Learning-cpp\Chapter 3\Debug\typecast.exe

@@ -1,0 +1,5 @@
+﻿  pch.cpp
+  init.cpp
+d:\learning-cpp\chapter 3\init\init.cpp(12): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+d:\learning-cpp\chapter 3\init\init.cpp(13): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  init.vcxproj -> D:\Learning-cpp\Chapter 3\Debug\init.exe

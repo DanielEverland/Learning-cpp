@@ -1,0 +1,89 @@
+1. Why does C++ have more than one integer type?
+	Different types can store different ranges of values
+
+2. Declare a variable matching the following descriptions:
+	a. A short integer with the value of 80
+		short shortValue = 80;
+
+	b. An unsigned int integer with the value 42,110
+		unsigned int unsignedValue = 42110;
+
+	c. An integer with the value 3,000,000,000
+		unsigned long veryLongValue = 3000000000;
+
+3. What safeguards does C++ provide to keep you from exceeding the limits of an integer type?
+	limits.h contains a definition detailing how bit an integer can get
+
+4. What is the distinction between 33L and 33?
+	33 will be stored as an integer
+	33L will be stoed as a long due to the L suffix
+
+5. Consider the two C++ statements that follow:
+	char grade = 65;
+	char grade = 'A';
+
+	Are they equivalent?
+		Not necessarily. The first line will assign whichever ASCII character that has the code 65, which can vary from implementation to implementation
+		The second line, on the other hand, will always assign whichever code A uses.
+
+6. How could you use C++ to find out which character the code 88 represents? Come up with at least two ways.
+	You could assign it to a variable of type char and then print it
+		char ch = 88;
+		cout << ch;
+
+	You could also cast it directly into the stream
+		cout << (char)88;
+
+7. Assigning a long value to a float can result in rounding error. What about assigning a long to double? long long to double?
+	long to double should be fine since double has precision up to 15-18 digits and long max is 10 digits.
+	long long, on the other hand uses 19 digits, so you could definitely get rounding errors in that case.
+
+8. Evaluate the following expressions as C++ would:
+	a. 8 * 9 + 2
+		Multiplication is prioritized over addition
+		(8 * 9) + 2 = 74
+
+	b. 6 * 3 / 4
+		Multiplication and division is ranked equaly, but they use left/right associativity.
+		(6 * 3) / 4 = 4
+
+	c. 3 / 4 * 6
+		First operation is 0.75, but since the operands are integers it's truncated to 0.
+		(3 / 4) * 6 = 0
+
+	d. 6.0 * 3 / 4
+		Since the first operand is double, the other two are converted to double
+		6.0 * 3.0 / 4.0
+		Then we evaluate according to the associativity, since all operators are equal
+		(6.0 * 3.0) / 4.0 = 4.5
+
+	e. 15 % 4
+		Not much to say here. Since it's a single operator, we just execute the expression
+		15 % 4 = 3
+
+9. Suppose x1 and x2 are two type double variables that you want to add as integers and assign to an integer variable.
+	Construct a C++ statement for doing so.
+		double x1 = 43;
+		double x2 = 44.06;
+		int y1 = (int)x1 + (int)x2;
+
+	What if you want to add them as type double and then convert to int?
+		double x1 = 43;
+		double x2 = 44.06;
+		int y1 = int(x1 + x2);
+
+10. What is the variable type for each of the following declarations?
+	a. auto cars = 15;
+		int
+
+	b. auto iou = 150.37f;
+		float
+
+	c. auto level = 'B';
+		char
+
+	d. auto crat = U'/U0002155';
+		char32_t
+
+	e. auto fract = 8.25f/2.5;
+		double -- first operand is converted during the expressions execution
