@@ -1,0 +1,11 @@
+ChapterReview16.cpp -- Listing 4.6 illustrates a problem created by following numeric input with line-oriented string input. How would replacing this:
+
+	cin.getline(address, 80);
+
+with this:
+
+	cin >> address;
+
+affect the working of this program?
+
+First reads the entire line of 80 characters, second only reads the first word

@@ -1,0 +1,4 @@
+Is the following valid code? If so, what does it print?
+cout << (int*) "Home of the jolley bytes";
+
+Yes, it'll print the address of the string literal
