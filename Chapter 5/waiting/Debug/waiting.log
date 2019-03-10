@@ -1,0 +1,4 @@
+﻿  pch.cpp
+  waiting.cpp
+d:\learning-cpp\chapter 5\waiting\waiting.cpp(16): warning C4244: 'initializing': conversion from 'float' to 'clock_t', possible loss of data
+  waiting.vcxproj -> D:\Learning-cpp\Chapter 5\Debug\waiting.exe
