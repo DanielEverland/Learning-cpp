@@ -1,0 +1,9 @@
+What would the following code fragment print if it were part of a valid program?
+
+int j = 5;
+while (++j < 9)
+	cout << j++ << endl;
+
+> 6
+> 8
+> 

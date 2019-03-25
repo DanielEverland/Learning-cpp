@@ -1,0 +1,9 @@
+What would the following code fragment print if it were part of a valid program?
+
+int k = 8;
+do
+	cout << " k = " << k << endl;
+while (k++ < 5)
+
+> k = 8
+>

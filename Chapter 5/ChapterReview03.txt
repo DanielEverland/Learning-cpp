@@ -1,0 +1,10 @@
+What would the following code fragment print if it were part of a valid program?
+
+int j;
+for (j = 0; j < 11; j += 3)
+	cout << j;
+cout << endl << j << endl;
+
+> 0369
+> 12
+> 
