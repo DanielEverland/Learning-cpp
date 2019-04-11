@@ -1,0 +1,12 @@
+Is the following statement valid? If not, why not? If so, what does it do?
+int x = (1,024);
+
+Yes, it's valid and the value is 024 since the comma operators value returns the second expression
+024 is an octal literal for 20, so x = 20
+
+What about the following?
+int y;
+y = 1,024;
+
+Yes, but due to the comma operator having the lowest priority, y = 1.
+024, or 20, isn't used at all

@@ -1,0 +1,8 @@
+How do you make a loop include more than one statement?
+
+Enclose it within a block using brackets
+
+for()
+{		// Block start
+		// Block body
+}		// Block end
