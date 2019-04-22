@@ -1,0 +1,8 @@
+What would the following code fragment print if it were part of a valid program?
+	int i;
+	for (i = 0; i < 5; i++)
+		cout << i;
+		cout << endl;
+
+> 01234
+> 

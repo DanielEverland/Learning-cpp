@@ -1,0 +1,3 @@
+How does cin>>ch differ from cin.get(ch) and ch = cin.get() in how it views input?
+
+cin >> ch skips spaces, newlines and tabs whereas both versions of cin.get() reads these input

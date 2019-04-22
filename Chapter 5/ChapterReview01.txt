@@ -1,0 +1,7 @@
+What's the difference between an entry-condition loop and an exit-condition loop?
+	An entry-condition loop's condition is evalutated prior to executing the body.
+	An exit-condition executed the body and then evalutas the condition
+
+Which kind is each of the C++ loops?
+	Entry-condition: while, for, range-based for
+	Exit-condition: do-while
