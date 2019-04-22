@@ -1,0 +1,3 @@
+﻿  protos.cpp
+D:\Learning-cpp\Chapter 7\protos\protos.cpp(26,13): warning C4244:  'argument': conversion from 'double' to 'int', possible loss of data
+  protos.vcxproj -> D:\Learning-cpp\Chapter 7\Debug\protos.exe

@@ -1,0 +1,4 @@
+﻿  lotto.cpp
+D:\Learning-cpp\Chapter 7\lotto\lotto.cpp(18,30): warning C4244:  'argument': conversion from 'double' to 'unsigned int', possible loss of data
+D:\Learning-cpp\Chapter 7\lotto\lotto.cpp(18,23): warning C4244:  'argument': conversion from 'double' to 'unsigned int', possible loss of data
+  lotto.vcxproj -> D:\Learning-cpp\Chapter 7\Debug\lotto.exe
