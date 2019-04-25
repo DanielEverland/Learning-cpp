@@ -1,0 +1,4 @@
+In Listing 6.10, what advantage would there be in using character labels, such as a
+and c, instead of numbers for the menu choices and switch cases? (Hint: Think
+about what happens if the user types q in either case and what happens if the user
+types 5 in either case)

@@ -1,0 +1,7 @@
+In English, the statement "I will not speak" means the same as "I will speak."
+In C++, is !!x the same as x?
+
+Depends on the type. If x is bool then yes.
+
+If x however is 10, then no.
+!x is 0 and !!x is 1

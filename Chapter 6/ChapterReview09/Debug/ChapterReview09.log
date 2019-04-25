@@ -1,0 +1,3 @@
+﻿  ChapterReview09.cpp
+c:\users\daniel\learning-cpp\chapter 6\chapterreview09\chapterreview09.cpp(25): error C2084: function 'int main(void)' already has a body
+  c:\users\daniel\learning-cpp\chapter 6\chapterreview09\chapterreview09.cpp(9): note: see previous definition of 'main'

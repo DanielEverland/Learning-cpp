@@ -1,0 +1,5 @@
+Construct a conditional expression that is equal to the absolute value of a variable.
+That is, if a variable x is positive, the value of the expression is just x, but if x is neg-
+ative, the value of the expression is -x, which is positive
+
+x < 0 ? -x : x

@@ -1,0 +1,21 @@
+Construct logical expressions to represent the following conditions:
+a. weight is greater than or equal to 115 but less than 125.
+	weight >= 115 && weight < 125
+
+b. ch is q or Q.
+	ch == 'q' || ch == 'Q'
+
+c. x is even but is not 26.
+	(x % 2 == 0) && x != 26
+
+d. x is even but is not a multiple of 26.
+	(x % 2 == 0) && (x % 26 != 0)
+
+e. donation is in the range 1,000-2,000 or guest is 1
+	(donation >= 1,000 && donation <= 2,000) || guest == 1
+
+f. ch is lowercase letter or an uppercase letter.
+(Assume, as is true for ASCII, that lowercase letters are coded sequentially and uppercase letters are coded sequentially
+	but that there is a gap in the code between uppercase and lowercase)
+
+	(ch >= int('a') && ch <= int('z')) || (ch >= int('A') && ch <= int('Z'))

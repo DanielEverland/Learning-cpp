@@ -1,0 +1,4 @@
+In listing 6.2, what is the effect of replacing ++ch with c+1?
+
+++ch increments the underlying character code, which to cout still evaluates as a char
+c + 1 promotes the value to a type of int, showing the underlying character code + 1, thereby displaying numbers instead of characters.

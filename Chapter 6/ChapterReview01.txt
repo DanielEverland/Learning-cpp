@@ -1,0 +1,23 @@
+Consider the following two code fragments for counting spaces and newlines:
+
+Version 1
+while (cin.get(ch))		// quit on EOF
+{
+	if(ch == ' ')
+		spaces++;
+	if(ch == '\n')
+		newlines++;
+}
+
+Version 2
+while(cin.get(ch))
+{
+	if(ch == ' ')
+		spaces++;
+	else if(ch == '\n')
+		newlines++;
+}
+
+What advantages, if any, does the second form have over the first?
+
+A character cannot be both a space and a newline, so the second form is more correct on a technical level, more performant, and also communicates intent best.
