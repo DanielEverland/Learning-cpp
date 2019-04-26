@@ -1,0 +1,4 @@
+What does the expression *"pizza" mean? What about "taco"[2]?
+
+"pizza"'s underlying type is char* which points to the first character. So applying the dereference operator returns the 'p' character
+"taco[2]" is the third character of the string literal, i.e. 'c'

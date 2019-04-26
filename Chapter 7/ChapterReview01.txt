@@ -1,0 +1,2 @@
+What are the three steps in using a function?
+Prototype, Definition and Call

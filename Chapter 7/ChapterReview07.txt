@@ -1,0 +1,5 @@
+What are the three forms a C-style string can take in a C++ program?
+
+Constant literal,
+Array,
+Pointer

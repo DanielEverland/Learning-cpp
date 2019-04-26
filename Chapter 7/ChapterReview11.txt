@@ -1,0 +1,5 @@
+The function judge() has a type int return value. As an argument, it takes the
+address of a function. The function whose address is passed, in turn, takes a pointer
+to a const char as an argument and returns an int. Write the function prototype.
+
+int judge(int (pf*)(const char*));

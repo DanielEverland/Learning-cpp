@@ -1,0 +1,4 @@
+Why don't you use the const qualifier for function arguments that are one of the
+fundamental types?
+
+Primitives are always passed as value, so there's no way for it to modify the actual argument

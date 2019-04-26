@@ -1,0 +1,21 @@
+Write a function that has this prototype:
+int replace(char* str, char c1, char c2);
+
+Have the function replace every occurance of c1 in the string str with c2, and
+have the function return the number of replacement it makes.
+
+int replace(char* str, char c1, char c2)
+{
+	int count = 0;
+
+	while(*str)
+	{
+		if(*str == c1)
+		{
+			*str = c2;
+			count++;
+		}
+	}
+
+	return count;
+}

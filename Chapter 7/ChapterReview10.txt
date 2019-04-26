@@ -1,0 +1,9 @@
+C++ enables you to pass a structure by value, and it lets you pass the address of a
+structure. If glitz is a structure variable, how would you pass it by value? How
+would you pass its address? What are the trade-offs of the two approaches?
+
+Structures are passed by value by default: func(structName);
+To pass the address you do the following: func(&structName);
+
+The tradeoff is that the first approach creates a copy of the entire struct, and also
+doesn't allow the function to modify the original struct in any way.
