@@ -1,0 +1,14 @@
+a. both.
+mass(double density, double volume)
+mass(double density, volume = 1)
+mass(double density)
+
+b. only overloading, since defaults are right-to-left
+double repeat(int times, char* str);
+double repeat(char* str);
+
+c. only overloading
+int average(int, int)
+double average(double, double)
+
+d. neither, prototyping doesn't descriminate pointer vs. non-pointer

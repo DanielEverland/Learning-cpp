@@ -1,0 +1,2 @@
+What kinds of functions are good candidates for inline status?
+	Short functions that are used several time in your codebase. Math functions like sqrt, for instance

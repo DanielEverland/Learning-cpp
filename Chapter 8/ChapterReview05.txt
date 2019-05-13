@@ -1,0 +1,26 @@
+First we change the prototypes
+
+void fill(std::array<double, Seasons>& pa);
+
+// const so we don't alter the data
+void show(const std::array<double, Seasons>& da);
+
+
+In the main function we omit the & operator when calling fill
+
+fill(expenses);
+show(expenses);
+
+
+Then for the fill() function we change the function header and
+how we index each member
+
+void fill(std::array<double, Seasons>& pa)
+{
+	...
+	cin >> pa[i];
+	...
+}
+
+Show simply requires changing its header
+void show(const std::array<double, Seasons>& da)

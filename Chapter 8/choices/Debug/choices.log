@@ -1,0 +1,12 @@
+﻿  choices.cpp
+C:\Users\Daniel\Learning-cpp\Chapter 8\choices\choices.cpp(30,25): warning C4244:  'argument': conversion from 'double' to 'T', possible loss of data
+C:\Users\Daniel\Learning-cpp\Chapter 8\choices\choices.cpp(30,25): warning C4244:         with
+C:\Users\Daniel\Learning-cpp\Chapter 8\choices\choices.cpp(30,25): warning C4244:         [
+C:\Users\Daniel\Learning-cpp\Chapter 8\choices\choices.cpp(30,25): warning C4244:             T=int
+C:\Users\Daniel\Learning-cpp\Chapter 8\choices\choices.cpp(30,25): warning C4244:         ]
+C:\Users\Daniel\Learning-cpp\Chapter 8\choices\choices.cpp(30,22): warning C4244:  'argument': conversion from 'double' to 'T', possible loss of data
+C:\Users\Daniel\Learning-cpp\Chapter 8\choices\choices.cpp(30,22): warning C4244:         with
+C:\Users\Daniel\Learning-cpp\Chapter 8\choices\choices.cpp(30,22): warning C4244:         [
+C:\Users\Daniel\Learning-cpp\Chapter 8\choices\choices.cpp(30,22): warning C4244:             T=int
+C:\Users\Daniel\Learning-cpp\Chapter 8\choices\choices.cpp(30,22): warning C4244:         ]
+  choices.vcxproj -> C:\Users\Daniel\Learning-cpp\Chapter 8\Debug\choices.exe
