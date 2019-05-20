@@ -1,0 +1,4 @@
+a. automatic
+b. static external linkage. Files referencing a definition uses the extern keyword
+c. static internal linkage or using namespace
+d. local static variable

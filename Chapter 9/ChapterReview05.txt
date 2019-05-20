@@ -1,0 +1,2 @@
+I would declare each function in a separate namespace, as that is the preferred resolution
+You could, however, make each function static

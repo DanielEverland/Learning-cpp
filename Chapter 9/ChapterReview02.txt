@@ -1,0 +1,3 @@
+The using declaration is more restrictive than the using directive.
+Using declaration can bring specific names into scope, whereas the
+using directive will bring an entire namespace into scope
