@@ -1,0 +1,2 @@
+this is a pointer to the object the function is called from
+*this would then be the object itself, since it dereferences the pointer

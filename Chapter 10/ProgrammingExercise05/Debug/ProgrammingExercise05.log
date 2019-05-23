@@ -1,0 +1,5 @@
+﻿  ProgrammingExercise05.cpp
+  Stack.cpp
+  Generating Code...
+C:\Users\Daniel\Learning-cpp\Chapter 10\ProgrammingExercise05\Stack.cpp(36,23): warning C4244:  '+=': conversion from 'double' to 'float', possible loss of data
+  ProgrammingExercise05.vcxproj -> C:\Users\Daniel\Learning-cpp\Chapter 10\Debug\ProgrammingExercise05.exe

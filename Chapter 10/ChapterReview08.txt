@@ -1,0 +1,3 @@
+The default constructor is called when you do not provide any arguments upon creating an object
+If you don't have a default constructor, you must always provide enough arguments to satisfy another constructor,
+which in turn also means that you have to implement another constructor

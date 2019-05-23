@@ -1,0 +1,6 @@
+BankAccount(std::string depositorName, std::string accountNumber, double balance)
+{
+	this->depositorName = depositorName;
+	this->accountNumber = accountNumber;
+	this->balance = balance;
+}

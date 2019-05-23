@@ -1,0 +1,5 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Preview\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(452,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (stock00.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  stock00.cpp
+  usestok0.cpp
+  Generating Code...
+  stock00.vcxproj -> C:\Users\Daniel\Learning-cpp\Chapter 10\Debug\usestok0.exe

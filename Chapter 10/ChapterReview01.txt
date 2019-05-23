@@ -1,0 +1,5 @@
+A class is an encapsulated data type which fully facilitates ADTs
+
+A class can have member functions which can access member variables
+A class also has protection levels in order to support data hiding
+Classes work much like primitive data types; they can be variables, return types, arguments, arrays and so forth

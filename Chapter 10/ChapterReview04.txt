@@ -1,0 +1,2 @@
+Class functions are not instanced. If you have 5 objects of Class A, and Class A has a function called func(), there will only exist on func()
+Data members are then passed to each function when called

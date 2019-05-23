@@ -1,0 +1,5 @@
+Class constructors are called whenever an object is created, which can inadverdently happen when you declare a temp object.
+
+Destructors are called depending on the object's storage
+Automatic & static storage calls when it goes out of scope
+Dynamic storage calls the destructor when you use the delete keyword
