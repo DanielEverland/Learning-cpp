@@ -1,0 +1,9 @@
+In the header file
+
+friend Stonewt operator*(const Stonewt&, double);
+
+Implementation:
+Stonewt operator*(const Stonewt& s, double n)
+{
+	return Stonewt(s.Stone * n);
+}

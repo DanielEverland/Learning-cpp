@@ -1,0 +1,2 @@
+A member function resides within the class, and has class scope
+A friend function is a function declared outside the class, but which still has access to its private members

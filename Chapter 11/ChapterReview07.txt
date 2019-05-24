@@ -1,0 +1,10 @@
+Header:
+
+operator double();
+
+Impl:
+
+Vector::operator double()
+{
+	return mag;
+}

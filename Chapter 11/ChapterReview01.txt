@@ -1,0 +1,4 @@
+Stonewt Stonewt::operator*(double n)
+{
+	return Stonewt(stone * n);
+}

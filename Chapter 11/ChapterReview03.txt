@@ -1,0 +1,3 @@
+Not necessarily. Friendship only grants access to non-public members.
+
+So a non-friend function works exactly like a friend function would, but while only having access to public members

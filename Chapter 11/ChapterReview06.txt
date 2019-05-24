@@ -1,0 +1,1 @@
+They must be defined using a member function
