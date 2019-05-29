@@ -1,0 +1,5 @@
+a. It doesn't initialize the members
+
+b. It doesn't copy the paramater, it simply points to it
+
+c. str is uninitialized. An array should've been allocated prior to using strpcy

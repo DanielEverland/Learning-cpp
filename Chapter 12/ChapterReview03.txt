@@ -1,0 +1,5 @@
+1. Default constructor			- is empty and does nothing
+2. Default destructor			- is empty and does nothing
+3. Default copy constructor		- does shallow memberwise copy
+4. Default assignment operator	- does shallow memberwise copy
+5. Default address operator		- returns address of invoking object (this pointer)

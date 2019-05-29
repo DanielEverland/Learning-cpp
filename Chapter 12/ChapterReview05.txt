@@ -1,0 +1,11 @@
+a. 
+	#1: default
+	#2: C-style
+	#3: C-style
+	#4: default
+	#5: Copy
+	#6: C-Style
+	#7: default assignment
+	#8: C-Style, then default assignment
+
+b. Assignment operator

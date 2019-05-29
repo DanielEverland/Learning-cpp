@@ -1,0 +1,3 @@
+﻿  sayings2.cpp
+C:\Users\Daniel\Learning-cpp\Chapter 12\sayings2\sayings2.cpp(61,13): warning C4244:  'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  sayings2.vcxproj -> C:\Users\Daniel\Learning-cpp\Chapter 12\Debug\sayings2.exe
