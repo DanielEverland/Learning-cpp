@@ -1,2 +1,5 @@
-﻿  usetime3.cpp
-  usetime3.vcxproj -> C:\Users\Daniel\Learning-cpp\Chapter 11\Debug\usetime3.exe
+﻿  mytime3.cpp
+  usetime3.cpp
+  Generating Code...
+C:\Users\Daniel\source\repos\Learning-cpp\Chapter 11\usetime3\mytime3.cpp(61,20): warning C4244:  'initializing': conversion from 'double' to 'long', possible loss of data
+  usetime3.vcxproj -> C:\Users\Daniel\source\repos\Learning-cpp\Chapter 11\Debug\usetime3.exe
