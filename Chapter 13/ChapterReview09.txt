@@ -1,0 +1,2 @@
+Yes.
+Maybe. If it has an operator or constructor that supports it

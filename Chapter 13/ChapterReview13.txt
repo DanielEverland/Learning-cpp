@@ -1,0 +1,2 @@
+a. Corporation::Head() is called since ph is pointer-to-Corporation
+b. PublicCorporation::Head() is called

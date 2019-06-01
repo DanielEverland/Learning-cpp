@@ -1,0 +1,1 @@
+Most all members except some special functions like the constructor.

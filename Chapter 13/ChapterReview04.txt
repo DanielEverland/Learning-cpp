@@ -1,0 +1,3 @@
+Constructors first call the base class and then sequentially calls derived types
+
+Destructors are called inversely, starting at the most derived type and working towards the base type.

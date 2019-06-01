@@ -1,0 +1,2 @@
+Only if the default assignment operator is insufficient, i.e. if one of its own members requires deep copying.
+In that case it should explicitly call the base assignment operator, so its base members are copied as well

@@ -1,0 +1,2 @@
+The derived class doesn't have access to kit_sq_ft
+The derived class hides the base::area() function since function overloading is not supported in inheritance
