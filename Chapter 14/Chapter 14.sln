@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28917.182
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "use_stuc", "..\use_stuc\use_stuc.vcxproj", "{EB610A8E-9A9B-4293-94B5-1AAB747ED504}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "use_stuc", "use_stuc\use_stuc.vcxproj", "{EB610A8E-9A9B-4293-94B5-1AAB747ED504}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "use_stui", "..\use_stui\use_stui.vcxproj", "{2AD93D18-54DB-4851-A3D2-F04C9DF5496E}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "use_stui", "use_stui\use_stui.vcxproj", "{2AD93D18-54DB-4851-A3D2-F04C9DF5496E}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "worktest", "..\worktest\worktest.vcxproj", "{58256128-0335-47B2-9C89-B537B641D045}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "worktest", "worktest\worktest.vcxproj", "{58256128-0335-47B2-9C89-B537B641D045}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
