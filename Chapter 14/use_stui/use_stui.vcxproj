@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?>
-=======
-﻿<?xml version="1.0" encoding="utf-8"?>
->>>>>>> 5599dbc88f13aeffdd01a67eb4c291b16f6f7415
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -24,12 +20,8 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-<<<<<<< HEAD
-    <ProjectGuid>{BB6E5B40-86AB-43D0-ABDA-7EA123BE132C}</ProjectGuid>
-=======
-    <ProjectGuid>{FFEDD561-5658-4E29-B772-6CAEEFAA22E5}</ProjectGuid>
->>>>>>> 5599dbc88f13aeffdd01a67eb4c291b16f6f7415
-    <RootNamespace>usett1</RootNamespace>
+    <ProjectGuid>{2AD93D18-54DB-4851-A3D2-F04C9DF5496E}</ProjectGuid>
+    <RootNamespace>usestui</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -131,11 +123,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="tabtenn1.h" />
+    <ClInclude Include="studenti.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="tabtenn1.cpp" />
-    <ClCompile Include="usett1.cpp" />
+    <ClCompile Include="studenti.cpp" />
+    <ClCompile Include="use_stui.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

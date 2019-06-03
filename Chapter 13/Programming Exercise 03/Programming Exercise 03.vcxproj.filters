@@ -14,20 +14,23 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
   </ItemGroup>
-<<<<<<< HEAD
   <ItemGroup>
-    <ClInclude Include="tabtenn1.h">
+    <ClInclude Include="dma.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="tabtenn1.cpp">
+    <ClCompile Include="lacksDMA.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="usett1.cpp">
+    <ClCompile Include="baseDMA.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hasDMA.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ProgrammingExercise03.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
-=======
->>>>>>> 5599dbc88f13aeffdd01a67eb4c291b16f6f7415
 </Project>

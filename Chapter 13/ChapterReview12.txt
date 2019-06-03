@@ -1,0 +1,1 @@
+It's more efficient. It also allows any derived type to be used
