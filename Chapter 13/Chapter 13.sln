@@ -3,6 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28917.182
 MinimumVisualStudioVersion = 10.0.40219.1
+<<<<<<< HEAD
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "usett0", "..\usett0\usett0.vcxproj", "{6BCBDC17-BCD5-4679-9330-F446386278F1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "usett1", "..\usett1\usett1.vcxproj", "{BB6E5B40-86AB-43D0-ABDA-7EA123BE132C}"
+=======
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "usebrass1", "..\usebrass1\usebrass1.vcxproj", "{489CA769-39B2-4103-B461-BBC72521272C}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "usebrass2", "..\usebrass2\usebrass2.vcxproj", "{4D5B14DE-57A6-4F86-81C6-581EF451040F}"
@@ -42,6 +47,7 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Programming Exercise 03", "Programming Exercise 03\Programming Exercise 03.vcxproj", "{E61AA439-1813-4FEA-962E-EA97FA1C490D}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ProgrammingExercise04", "ProgrammingExercise04\ProgrammingExercise04.vcxproj", "{DAD51D5B-CB32-4FA0-93A7-E169DE2AEB86}"
+>>>>>>> 5599dbc88f13aeffdd01a67eb4c291b16f6f7415
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +57,24 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+<<<<<<< HEAD
+		{6BCBDC17-BCD5-4679-9330-F446386278F1}.Debug|x64.ActiveCfg = Debug|x64
+		{6BCBDC17-BCD5-4679-9330-F446386278F1}.Debug|x64.Build.0 = Debug|x64
+		{6BCBDC17-BCD5-4679-9330-F446386278F1}.Debug|x86.ActiveCfg = Debug|Win32
+		{6BCBDC17-BCD5-4679-9330-F446386278F1}.Debug|x86.Build.0 = Debug|Win32
+		{6BCBDC17-BCD5-4679-9330-F446386278F1}.Release|x64.ActiveCfg = Release|x64
+		{6BCBDC17-BCD5-4679-9330-F446386278F1}.Release|x64.Build.0 = Release|x64
+		{6BCBDC17-BCD5-4679-9330-F446386278F1}.Release|x86.ActiveCfg = Release|Win32
+		{6BCBDC17-BCD5-4679-9330-F446386278F1}.Release|x86.Build.0 = Release|Win32
+		{BB6E5B40-86AB-43D0-ABDA-7EA123BE132C}.Debug|x64.ActiveCfg = Debug|x64
+		{BB6E5B40-86AB-43D0-ABDA-7EA123BE132C}.Debug|x64.Build.0 = Debug|x64
+		{BB6E5B40-86AB-43D0-ABDA-7EA123BE132C}.Debug|x86.ActiveCfg = Debug|Win32
+		{BB6E5B40-86AB-43D0-ABDA-7EA123BE132C}.Debug|x86.Build.0 = Debug|Win32
+		{BB6E5B40-86AB-43D0-ABDA-7EA123BE132C}.Release|x64.ActiveCfg = Release|x64
+		{BB6E5B40-86AB-43D0-ABDA-7EA123BE132C}.Release|x64.Build.0 = Release|x64
+		{BB6E5B40-86AB-43D0-ABDA-7EA123BE132C}.Release|x86.ActiveCfg = Release|Win32
+		{BB6E5B40-86AB-43D0-ABDA-7EA123BE132C}.Release|x86.Build.0 = Release|Win32
+=======
 		{489CA769-39B2-4103-B461-BBC72521272C}.Debug|x64.ActiveCfg = Debug|x64
 		{489CA769-39B2-4103-B461-BBC72521272C}.Debug|x64.Build.0 = Debug|x64
 		{489CA769-39B2-4103-B461-BBC72521272C}.Debug|x86.ActiveCfg = Debug|Win32
@@ -131,10 +155,15 @@ Global
 		{DAD51D5B-CB32-4FA0-93A7-E169DE2AEB86}.Release|x64.Build.0 = Release|x64
 		{DAD51D5B-CB32-4FA0-93A7-E169DE2AEB86}.Release|x86.ActiveCfg = Release|Win32
 		{DAD51D5B-CB32-4FA0-93A7-E169DE2AEB86}.Release|x86.Build.0 = Release|Win32
+>>>>>>> 5599dbc88f13aeffdd01a67eb4c291b16f6f7415
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
+<<<<<<< HEAD
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9F0BB3B3-436A-43FB-ADED-75E6DEBFB979}
+=======
 	GlobalSection(NestedProjects) = preSolution
 		{11B1EAA6-1661-4D1D-907E-DAD68AD3CEC0} = {1187953B-705D-4025-B75B-5FD75819A781}
 		{8C68CCAD-15EA-4C09-8FA0-6813F788D367} = {1187953B-705D-4025-B75B-5FD75819A781}
@@ -143,5 +172,6 @@ Global
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {908A4C8E-52D5-4E0A-8BD4-A2E9FCFDDA94}
+>>>>>>> 5599dbc88f13aeffdd01a67eb4c291b16f6f7415
 	EndGlobalSection
 EndGlobal
