@@ -1,0 +1,2 @@
+Virtual base classes will only create one instance per derived class
+Non-virtual base classes will create one instance per inheritance-declaration

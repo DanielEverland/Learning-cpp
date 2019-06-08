@@ -1,0 +1,12 @@
+Gloam::Gloam(int g, const char* s) : Frabjous(s), glip(g)
+{
+}
+
+Gloam::Gloam(int g, const Frabjous& f) : Frabjous(f), glip(g)
+{
+}
+
+void Gloam::Tell()
+{
+	cout << "Glip: " << glip << ", Frabjous: " << Frabjous::tell() << endl;
+}
