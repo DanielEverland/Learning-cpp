@@ -1,0 +1,1 @@
+Sample #2 only works for Superb objects, whereas Sample 1 will work for any valid cast

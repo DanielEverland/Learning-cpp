@@ -1,0 +1,1 @@
+Most derived first. If you declare a base class before a derived class, the derived catch statement will never be reached.

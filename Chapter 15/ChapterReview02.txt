@@ -1,0 +1,1 @@
+No, because forward declarations in this case isn't enough. The entire definition of a class is required.

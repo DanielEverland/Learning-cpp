@@ -1,0 +1,3 @@
+a. Should be friend class clasp
+b. Forward declaration
+c. Forward declaration

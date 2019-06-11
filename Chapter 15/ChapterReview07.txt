@@ -1,0 +1,2 @@
+dynamic_cast<>: only upcasting
+static_cast<>: upcasting and downcasting, also allows conversion between numeric types
