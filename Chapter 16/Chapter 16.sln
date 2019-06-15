@@ -17,6 +17,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "vect1", "vect1\vect1.vcxpro
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "vect2", "vect2\vect2.vcxproj", "{4F0F380E-7A65-4D60-8EFD-BA1FA54C9B29}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "vect3", "vect3\vect3.vcxproj", "{4B1A4900-F646-432B-B152-FEDB33CFBDB5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -81,6 +83,14 @@ Global
 		{4F0F380E-7A65-4D60-8EFD-BA1FA54C9B29}.Release|x64.Build.0 = Release|x64
 		{4F0F380E-7A65-4D60-8EFD-BA1FA54C9B29}.Release|x86.ActiveCfg = Release|Win32
 		{4F0F380E-7A65-4D60-8EFD-BA1FA54C9B29}.Release|x86.Build.0 = Release|Win32
+		{4B1A4900-F646-432B-B152-FEDB33CFBDB5}.Debug|x64.ActiveCfg = Debug|x64
+		{4B1A4900-F646-432B-B152-FEDB33CFBDB5}.Debug|x64.Build.0 = Debug|x64
+		{4B1A4900-F646-432B-B152-FEDB33CFBDB5}.Debug|x86.ActiveCfg = Debug|Win32
+		{4B1A4900-F646-432B-B152-FEDB33CFBDB5}.Debug|x86.Build.0 = Debug|Win32
+		{4B1A4900-F646-432B-B152-FEDB33CFBDB5}.Release|x64.ActiveCfg = Release|x64
+		{4B1A4900-F646-432B-B152-FEDB33CFBDB5}.Release|x64.Build.0 = Release|x64
+		{4B1A4900-F646-432B-B152-FEDB33CFBDB5}.Release|x86.ActiveCfg = Release|Win32
+		{4B1A4900-F646-432B-B152-FEDB33CFBDB5}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
