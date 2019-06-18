@@ -1,0 +1,1 @@
+The STL approach allows you to also use pointers, which increases generality

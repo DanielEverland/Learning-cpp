@@ -1,0 +1,4 @@
+1. Use new, not new[]
+2. Cannot be anonymous within context
+3. Cannot assign to lval
+4. Should use template syntax

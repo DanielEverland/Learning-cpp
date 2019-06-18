@@ -1,0 +1,1 @@
+A set isn't unordered, which you would want for storing separate values per key

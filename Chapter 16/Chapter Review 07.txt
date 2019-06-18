@@ -1,0 +1,3 @@
+There are several types of iterators, which are ordered by how restritive they are.
+This allows the user to write generic functions in which you can be sure the iterator
+doesn't do something it's not supposed to do

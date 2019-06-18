@@ -1,0 +1,3 @@
+It doesn't support random access, so the sort() and random_shuffle() methods don't work as-is
+sort() can easily be fixed.
+Fixing the random_shuffle() is more troublesome and would involve converting list to another container

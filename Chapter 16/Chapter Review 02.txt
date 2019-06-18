@@ -1,0 +1,2 @@
+1. Handles its own dynamic memory
+2. Overloads operators

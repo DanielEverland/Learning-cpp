@@ -1,0 +1,3 @@
+1. Vector class has methods for doing simple operations like acquiring the size
+2. It can automatically resize itself
+3. It has better STL implementations as methods rather than the general functions STL provides

@@ -1,0 +1,1 @@
+You'd probably like random access to a gold bag, which the LIFO model of a stack does not support

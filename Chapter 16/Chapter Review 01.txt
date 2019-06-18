@@ -1,0 +1,12 @@
+class RQ1
+{
+public:
+	RQ1() : st("") {}
+	RQ1(const char* s) { st = s; }
+	RQ1(const RQ1& rq) 				// NOT NEEDED
+	~RQ1()							// NOT NEEDED
+	RQ1& operator=(const RQ1& rq)	// NOT NEEDED
+
+private:
+	string st;
+};

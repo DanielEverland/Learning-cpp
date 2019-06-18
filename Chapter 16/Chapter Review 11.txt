@@ -1,0 +1,4 @@
+1. It creates a temporary TooBig<int> object with the cutoff being at 10
+2. It then calls the () operator to see if 15 is too big
+3. 15 is bigger than 10, so the return value is true
+4. bo = true
