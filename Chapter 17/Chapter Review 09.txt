@@ -1,0 +1,1 @@
+cin.get() will keep going until it hits a newline, whereas ignore will stop after 79 characters or endline, whichever comes first

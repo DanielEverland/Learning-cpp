@@ -1,0 +1,3 @@
+Each type is a different overloaded operator
+cin << int		=	ostream& operator<<(int)
+cin << string	=	ostream& operator<<(string)

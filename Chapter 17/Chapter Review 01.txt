@@ -1,0 +1,2 @@
+It's a base class that facilitates common functionality between input and output streams
+For instance the different state bits

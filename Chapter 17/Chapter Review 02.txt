@@ -1,0 +1,3 @@
+The keyboard sends three different bytes if you input 121, each representing a digit as a character
+C++ needs to convert this to a C++ type, though.
+So if you want this as an int, it would have to convert the data to a format that int supports

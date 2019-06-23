@@ -1,0 +1,1 @@
+Standard error will always be sent to the default destination, even if you try to redirect it.
