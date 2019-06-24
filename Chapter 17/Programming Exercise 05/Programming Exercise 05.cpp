@@ -30,9 +30,18 @@ int main()
 	auto newEnd = unique(outputNames.begin(), outputNames.end());
 	outputNames.erase(newEnd, outputNames.end());
 
+	auto emptyIter = find(outputNames.begin(), outputNames.end(), "");
+	if (emptyIter != outputNames.end())
+		outputNames.erase(emptyIter);
+
 	ofstream outputFile(outputFilename);
 	for (auto i = outputNames.begin(); i != outputNames.end(); i++)
-		outputFile << *i << endl;
+	{
+		outputFile << *i;
+
+		if (i + 1 != outputNames.end())
+			outputFile << endl;
+	}		
 }
 
 vector<string> CreateContainerFromFile(const char* fileName)
