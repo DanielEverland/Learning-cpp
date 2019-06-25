@@ -1,0 +1,14 @@
+a.
+double & rx					w is an lvalue, therefore it's assignable and not const
+const double & rx			w + 1 is an rvalue, therefore const
+const double & rx			up(w) is an rvalue, therefore const
+
+b.
+double & rx					w is an lvalue
+double && rx				w + 1 is an rvalue
+double && rx				up(w) is an rvalue
+
+c.
+const double & rx			w is an lvalue
+double && rx				w + 1 is an rvalue
+double && rx				up(w) is an rvalue

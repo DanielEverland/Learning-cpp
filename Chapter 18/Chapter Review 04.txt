@@ -1,0 +1,10 @@
+Default constructor
+Default destructor
+
+Default copy constructor
+Default move constructor
+
+Default copy assignment operator
+Default move assignment operator
+
+They're special because they're defaulted unless specified otherwise

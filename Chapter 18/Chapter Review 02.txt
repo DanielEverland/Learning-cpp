@@ -1,0 +1,11 @@
+Valid, to w
+Valid, to temp w + 1
+Valid, to temp up(w)
+
+Valid, to w
+Invalid, rvalue, to temp w + 1
+Invalid, rvalue, to temp up(w)
+
+Invalid, lvalue
+Valid, rvalue
+Valid, rvalue
